@@ -1,0 +1,1551 @@
+.homepage {
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    display: flex;
+    flex-direction: column;
+    height: 1096px;
+    position: relative;
+  }
+  
+  .homepage .container {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 1000px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .header-margin {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 6.67px 0px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .header {
+    align-items: center;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 106.67px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .nav-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 0px 20px;
+    position: relative;
+    width: 986.67px;
+  }
+  
+  .homepage .nav {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .link-wrapper {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    position: relative;
+    width: 226.67px;
+  }
+  
+  .homepage .link {
+    align-items: flex-start;
+    display: flex;
+    height: 65px;
+    margin-bottom: -7.5px;
+    margin-top: -7.5px;
+    position: relative;
+    width: 162px;
+  }
+  
+  .homepage .picture-tripadvisor {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .homepage .tripadvisor-lockup {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8.34px 0px;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .homepage .div {
+    height: 33.33px;
+    margin-top: -37.5px;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .homepage .picture-tripadvisor-wrapper {
+    align-items: flex-start;
+    display: flex;
+    height: 75px;
+    margin-bottom: -8.34px;
+    margin-top: -4.17px;
+    position: relative;
+    width: 130px;
+  }
+  
+  .homepage .tripadvisor-lockup-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    margin-right: -0.56px;
+    position: relative;
+    width: 130.56px;
+  }
+  
+  .homepage .div-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 41.67px;
+    justify-content: center;
+    padding: 6.95px 0px;
+    position: relative;
+    width: 130.56px;
+  }
+  
+  .homepage .overlap-group-wrapper {
+    height: 27.77px;
+    overflow: hidden;
+    position: relative;
+    width: 130.56px;
+  }
+  
+  .homepage .overlap-group {
+    height: 28px;
+    position: relative;
+    width: 131px;
+  }
+  
+  .homepage .group {
+    background-image: url(./screenshot-2024-09-14-at-2-59-27-PM.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+  }
+  
+  .homepage .text-wrapper {
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 13.9px;
+    font-weight: 700;
+    height: 22px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    width: 131px;
+  }
+  
+  .homepage .container-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 453.33px;
+  }
+  
+  .homepage .container-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 96.6px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .container-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    height: 33.33px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .container-4 {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .homepage .button-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .homepage .button {
+    all: unset;
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border-radius: 16.67px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 8.33px 13.33px;
+    position: relative;
+  }
+  
+  .homepage .text-wrapper-2 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: var(--new-paragraph-font-family);
+    font-size: var(--new-paragraph-font-size);
+    font-style: var(--new-paragraph-font-style);
+    font-weight: var(--new-paragraph-font-weight);
+    letter-spacing: var(--new-paragraph-letter-spacing);
+    line-height: var(--new-paragraph-line-height);
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .homepage .container-5 {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-right: -2.53px;
+    position: relative;
+  }
+  
+  .homepage .container-6 {
+    align-items: flex-start;
+    display: flex;
+    gap: 6.67px;
+    justify-content: flex-end;
+    position: relative;
+    width: 226.67px;
+  }
+  
+  .homepage .button-2 {
+    all: unset;
+    align-items: center;
+    background-color: #6e9aaf;
+    border-radius: 16.67px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 8.33px 13.33px;
+    position: relative;
+  }
+  
+  .homepage .container-7 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 6.67px;
+    position: relative;
+  }
+  
+  .homepage .SVG {
+    height: 16.67px;
+    position: relative;
+    width: 16.67px;
+  }
+  
+  .homepage .vertical-divider {
+    background-color: #000000;
+    height: 18.33px;
+    position: relative;
+    width: 1px;
+  }
+  
+  .homepage .text-wrapper-3 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .link-2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #6e9aaf;
+    border-radius: 16.67px;
+    display: flex;
+    flex-direction: column;
+    padding: 8.33px 13.33px;
+    position: relative;
+    width: 66px;
+  }
+  
+  .homepage .container-8 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+    width: 39.33px;
+  }
+  
+  .homepage .container-9 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .homepage .text-wrapper-4 {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.9px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .homepage .main {
+    align-self: stretch;
+    background-color: #e3d8bf;
+    height: 999.72px;
+    margin-bottom: -96.39px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .heading-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 107px;
+    max-width: 1200px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 0;
+    width: 987px;
+  }
+  
+  .homepage .heading {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 369.73px 0px 369.74px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .text-wrapper-5 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: var(--montserrat-h3-font-family);
+    font-size: var(--montserrat-h3-font-size);
+    font-style: var(--montserrat-h3-font-style);
+    font-weight: var(--montserrat-h3-font-weight);
+    letter-spacing: var(--montserrat-h3-letter-spacing);
+    line-height: var(--montserrat-h3-line-height);
+    margin-left: -76.4px;
+    margin-right: -76.4px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    width: 360px;
+  }
+  
+  .homepage .tablist-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 0px 242.2px;
+    position: absolute;
+    top: 81px;
+    width: 1200px;
+  }
+  
+  .homepage .tablist {
+    align-items: flex-end;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-left: -1.53px;
+    margin-right: -1.53px;
+    overflow-x: scroll;
+    position: relative;
+  }
+  
+  .homepage .tab-margin {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 3.33px 6.67px 3.33px 20px;
+    position: relative;
+  }
+  
+  .homepage .tab {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 3.33px 3.33px 0px;
+    position: relative;
+  }
+  
+  .homepage .container-10 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .homepage .div-2 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 3.33px;
+    position: relative;
+  }
+  
+  .homepage .logo {
+    height: 40px;
+    position: relative;
+    width: 40px;
+  }
+  
+
+  .homepage .img {
+    height: 20px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .homepage .text-wrapper-6 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13.8px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18.3px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .horizontal-border {
+    border-bottom-style: solid;
+    border-bottom-width: 1.67px;
+    border-color: #000000;
+    height: 8.33px;
+    position: relative;
+    width: 91.93px;
+  }
+  
+  .homepage .tab-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 3.33px 6.67px;
+    position: relative;
+  }
+  
+  .homepage .tab-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 3.33px 3.33px 8.33px;
+    position: relative;
+  }
+  
+  .homepage .text-wrapper-7 {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18.3px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .text-wrapper-8 {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13.6px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18.3px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .text-wrapper-9 {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13.4px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18.3px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .tab-margin-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 3.33px 20px 3.33px 6.67px;
+    position: relative;
+  }
+  
+  .homepage .text-wrapper-10 {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14.1px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18.3px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .container-11 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 107px;
+    max-width: 1200px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 133px;
+    width: 987px;
+  }
+  
+  .homepage .container-12 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 140px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .container-13 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 666.67px;
+    position: relative;
+  }
+  
+  .homepage .background-border-wrapper {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .background-border {
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border: 1.67px solid;
+    border-radius: 83.33px;
+    box-shadow: 0px 1.67px 2.5px #00000026;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 1.67px 6.67px 1.67px 15px;
+    position: relative;
+    width: 666.67px;
+  }
+  
+  .homepage .search {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    height: 46.67px;
+    padding: 3.33px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .container-14 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 6.67px;
+    position: relative;
+  }
+  
+  .homepage .button-search {
+    flex: 0 0 auto;
+    height: 30px;
+    position: relative;
+  }
+  
+  .homepage .div-3 {
+    flex: 1;
+    flex-grow: 1;
+    height: 15px;
+    position: relative;
+  }
+  
+  .homepage .overlap-group-2 {
+    height: 16px;
+    position: relative;
+    width: 532px;
+  }
+  
+  .homepage .container-15 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 529px;
+  }
+  
+  .homepage .p {
+    color: var(--wwwtripadvisorcomauboulder);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.6px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .container-16 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 0px 3.33px 0px 0px;
+    position: absolute;
+    top: 0;
+    width: 532px;
+  }
+  
+  .homepage .container-17 {
+    all: unset;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-bottom: -0.17px;
+    margin-top: -0.17px;
+    position: relative;
+  }
+  
+  .homepage .button-3 {
+    all: unset;
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: 11.67px 20px;
+    position: relative;
+  }
+  
+  .homepage .text-wrapper-11 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.5px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .container-18 {
+    height: 1000px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 236px;
+    width: 1200px;
+  }
+  
+  .homepage .overlap {
+    height: 324px;
+    left: -14px;
+    position: absolute;
+    top: 14px;
+    width: 1200px;
+  }
+  
+  .homepage .margin {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 0px 106.67px;
+    position: absolute;
+    top: 36px;
+    width: 1200px;
+  }
+  
+  .homepage .container-19 {
+    height: 287.5px;
+    max-width: 1200px;
+    position: relative;
+    width: 986.67px;
+  }
+  
+  .homepage .container-20 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 3.33px;
+    justify-content: center;
+    left: 20px;
+    position: absolute;
+    top: 0;
+    width: 933px;
+  }
+  
+  .homepage .heading-margin {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 27.5px;
+    justify-content: center;
+    padding: 0px 0px 3.33px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .heading-2 {
+    align-self: stretch;
+    height: 24.17px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .travellers-choice-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 18.33px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .travellers-choice {
+    align-self: stretch;
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: var(--new-paragraph-font-family);
+    font-size: var(--new-paragraph-font-size);
+    font-style: var(--new-paragraph-font-style);
+    font-weight: var(--new-paragraph-font-weight);
+    letter-spacing: var(--new-paragraph-letter-spacing);
+    line-height: var(--new-paragraph-line-height);
+    margin-top: -0.83px;
+    position: relative;
+  }
+  
+  .homepage .container-21 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 17px;
+    position: absolute;
+    top: 59px;
+    width: 950px;
+  }
+  
+  .homepage .list-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    overflow: scroll;
+    padding: 3.33px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .list {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 1178.33px;
+  }
+  
+  .homepage .item-margin {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 13.33px 0px 0px;
+    position: relative;
+    width: 238.33px;
+  }
+  
+  .homepage .div-wrapper-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .div-wrapper-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .background {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    border-radius: 5px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .picture-wrapper {
+    align-self: stretch;
+    height: 225px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .picture {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    justify-content: center;
+    position: relative;
+    width: 225px;
+  }
+  
+  .homepage .image {
+    align-self: stretch;
+    height: 217px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .background-2 {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 57.89%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 26.67px 13.33px 13.33px;
+    position: absolute;
+    top: 161px;
+    width: 225px;
+  }
+  
+  .homepage .text-wrapper-12 {
+    align-self: stretch;
+    color: #e3d8bf;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20.8px;
+    font-weight: 400;
+    letter-spacing: 0.47px;
+    line-height: 23.3px;
+    margin-top: -0.83px;
+    position: relative;
+  }
+  
+  .homepage .item-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 238px;
+    justify-content: center;
+    padding: 0px 13.33px 0px 0px;
+    position: relative;
+    width: 239px;
+  }
+  
+  .homepage .background-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .image-2 {
+    height: 219px;
+    object-fit: cover;
+    position: relative;
+    width: 225px;
+  }
+  
+  .homepage .background-4 {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 57.89%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 26.67px 13.33px 13.33px;
+    position: absolute;
+    top: 161px;
+    width: 226px;
+  }
+  
+  .homepage .text-wrapper-13 {
+    align-self: stretch;
+    color: #e3d8bf;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.47px;
+    line-height: 23.3px;
+    margin-top: -0.83px;
+    position: relative;
+  }
+  
+  .homepage .image-3 {
+    align-self: stretch;
+    height: 223px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .background-5 {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 57.89%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 26.67px 13.33px 13.33px;
+    position: absolute;
+    top: 159px;
+    width: 225px;
+  }
+  
+  .homepage .text-wrapper-14 {
+    align-self: stretch;
+    color: #e3d8bf;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20.4px;
+    font-weight: 400;
+    letter-spacing: 0.47px;
+    line-height: 23.3px;
+    margin-top: -0.83px;
+    position: relative;
+  }
+  
+  .homepage .caption-jpg {
+    align-self: stretch;
+    background-image: url(./caption-jpg.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .background-6 {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 69.23%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 26.67px 13.33px 13.33px;
+    position: absolute;
+    top: 138px;
+    width: 225px;
+  }
+  
+  .homepage .cultural-historic {
+    align-self: stretch;
+    color: #e3d8bf;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 21.5px;
+    font-weight: 400;
+    letter-spacing: 0.47px;
+    line-height: 23.3px;
+    margin-top: -0.83px;
+    position: relative;
+  }
+  
+  .homepage .item {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    margin-right: -0.67px;
+    position: relative;
+    width: 225px;
+  }
+  
+  .homepage .caption-jpg-2 {
+    align-self: stretch;
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .food-drink {
+    align-self: stretch;
+    color: #e3d8bf;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 21.1px;
+    font-weight: 400;
+    letter-spacing: 0.47px;
+    line-height: 23.3px;
+    margin-top: -0.83px;
+    position: relative;
+  }
+  
+  .homepage .container-22 {
+    height: 130px;
+    left: 723px;
+    position: absolute;
+    top: 3px;
+    width: 227px;
+  }
+  
+  .homepage .text-wrapper-15 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: var(--montserrat-h3-font-family);
+    font-size: var(--montserrat-h3-font-size);
+    font-style: var(--montserrat-h3-font-style);
+    font-weight: var(--montserrat-h3-font-weight);
+    height: 44px;
+    left: 123px;
+    letter-spacing: var(--montserrat-h3-letter-spacing);
+    line-height: var(--montserrat-h3-line-height);
+    position: absolute;
+    top: 0;
+    width: 933px;
+  }
+  
+  .homepage .container-23 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 13.33px;
+    left: 113px;
+    max-width: 1200px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 462px;
+    width: 987px;
+  }
+  
+  .homepage .text-wrapper-16 {
+    align-self: stretch;
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 21.1px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.3px;
+    margin-top: -0.83px;
+    position: relative;
+  }
+  
+  .homepage .section {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 13.33px;
+    padding: 0px 0px 13.33px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .tablist-2 {
+    align-items: flex-end;
+    display: flex;
+    flex: 0 0 auto;
+    margin-left: -20px;
+    margin-right: -20px;
+    overflow-x: scroll;
+    padding: 3.33px 843.22px 3.33px 20px;
+    position: relative;
+    width: 986.67px;
+  }
+  
+  .homepage .tab-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 0.42px;
+    padding: 3.33px 3.33px 0px;
+    position: relative;
+  }
+  
+  .homepage .text-wrapper-17 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.1px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15.8px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .horizontal-border-2 {
+    border-bottom-style: solid;
+    border-bottom-width: 1.67px;
+    border-color: #000000;
+    height: 8.33px;
+    position: relative;
+    width: 116.78px;
+  }
+  
+  .homepage .section-2 {
+    align-self: stretch;
+    height: 97.5px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .homepage .link-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 237px;
+  }
+  
+  .homepage .text-wrapper-18 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.2px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .link-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 237px;
+    position: absolute;
+    top: 0;
+    width: 237px;
+  }
+  
+  .homepage .link-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 473px;
+    position: absolute;
+    top: 0;
+    width: 237px;
+  }
+  
+  .homepage .text-wrapper-19 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.5px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.2px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .link-6 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 710px;
+    position: absolute;
+    top: 0;
+    width: 237px;
+  }
+  
+  .homepage .link-7 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 21px;
+    width: 237px;
+  }
+  
+  .homepage .text-wrapper-20 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.2px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .link-8 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 237px;
+    position: absolute;
+    top: 21px;
+    width: 237px;
+  }
+  
+  .homepage .link-9 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 473px;
+    position: absolute;
+    top: 21px;
+    width: 237px;
+  }
+  
+  .homepage .text-wrapper-21 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.2px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.2px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .link-10 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 710px;
+    position: absolute;
+    top: 21px;
+    width: 237px;
+  }
+  
+  .homepage .text-wrapper-22 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.4px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.2px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .link-11 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 42px;
+    width: 237px;
+  }
+  
+  .homepage .link-12 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 237px;
+    position: absolute;
+    top: 42px;
+    width: 237px;
+  }
+  
+  .homepage .text-wrapper-23 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.1px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.2px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .link-13 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 473px;
+    position: absolute;
+    top: 42px;
+    width: 237px;
+  }
+  
+  .homepage .text-wrapper-24 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.6px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.2px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .link-14 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 710px;
+    position: absolute;
+    top: 42px;
+    width: 237px;
+  }
+  
+  .homepage .link-15 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 63px;
+    width: 237px;
+  }
+  
+  .homepage .link-16 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 237px;
+    position: absolute;
+    top: 63px;
+    width: 237px;
+  }
+  
+  .homepage .text-wrapper-25 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.3px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.2px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .link-17 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 473px;
+    position: absolute;
+    top: 63px;
+    width: 237px;
+  }
+  
+  .homepage .link-18 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 710px;
+    position: absolute;
+    top: 63px;
+    width: 237px;
+  }
+  
+  .homepage .link-19 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 83px;
+    width: 237px;
+  }
+  
+  .homepage .link-20 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 237px;
+    position: absolute;
+    top: 83px;
+    width: 237px;
+  }
+  
+  .homepage .link-21 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 473px;
+    position: absolute;
+    top: 83px;
+    width: 237px;
+  }
+  
+  .homepage .link-22 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 14px;
+    left: 710px;
+    position: absolute;
+    top: 83px;
+    width: 237px;
+  }
