@@ -1,0 +1,613 @@
+.reviews {
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .homepage .logo {
+    height: 40px;
+    position: relative;
+    width: 40px;
+  }
+  .reviews .container-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .header {
+    align-items: center;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .container-3 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 0px 24px;
+    position: relative;
+    width: 1184px;
+  }
+  
+  .reviews .nav {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    gap: 24px;
+    height: 60px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .link {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 60px;
+    position: relative;
+  }
+  
+  .reviews .picture-tripadvisor {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 188px;
+  }
+  
+  .reviews .tripadvisor-lockup {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: center;
+    padding: 10px 0px;
+    position: relative;
+    width: 188px;
+  }
+  
+  .reviews .overlap-group-wrapper {
+    height: 33.33px;
+    overflow: hidden;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .reviews .overlap-group {
+    height: 33px;
+    position: relative;
+    width: 157px;
+  }
+  
+  .reviews .group {
+    background-image: url(./screenshot-2024-09-14-at-2-59-27-PM.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 33px;
+  }
+  
+  .reviews .text-wrapper-2 {
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 16.7px;
+    font-weight: 700;
+    height: 26px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    width: 157px;
+  }
+  
+  .reviews .container-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 516px;
+    min-width: 116px;
+    position: relative;
+  }
+  
+  .reviews .background-border-wrapper {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 48px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .background-border {
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-left: -8.06px;
+    margin-right: -8.06px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 2px 18px;
+    position: relative;
+    width: 461.67px;
+  }
+  
+  .reviews .search {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    padding: 4px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .container-4 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .reviews .component-instance {
+    flex: 0 0 auto !important;
+  }
+  
+  .reviews .searchbox-search {
+    flex: 1;
+    flex-grow: 1;
+    height: 18px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .reviews .overlap-group-2 {
+    height: 20px;
+    position: relative;
+    width: 394px;
+  }
+  
+  .reviews .container-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 390px;
+  }
+  
+  .reviews .text-wrapper-3 {
+    color: var(--wwwtripadvisorcomauboulder);
+    font-family: var(--www-tripadvisor-com-au-inter-regular-15-88-font-family);
+    font-size: var(--www-tripadvisor-com-au-inter-regular-15-88-font-size);
+    font-style: var(--www-tripadvisor-com-au-inter-regular-15-88-font-style);
+    font-weight: var(--www-tripadvisor-com-au-inter-regular-15-88-font-weight);
+    letter-spacing: var(--www-tripadvisor-com-au-inter-regular-15-88-letter-spacing);
+    line-height: var(--www-tripadvisor-com-au-inter-regular-15-88-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .reviews .container-6 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 0px 4px 0px 0px;
+    position: absolute;
+    top: 0;
+    width: 394px;
+  }
+  
+  .reviews .container-7 {
+    flex: 1;
+    flex-grow: 1;
+    height: 18px;
+    position: relative;
+  }
+  
+  .reviews .container-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .reviews .container-9 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .container-10 {
+    align-items: flex-start;
+    display: flex;
+    height: 40px;
+    position: relative;
+    width: 243.25px;
+  }
+  
+  .reviews .container-11 {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .reviews .component-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .reviews .container-12 {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-right: -2.75px;
+    position: relative;
+  }
+  
+  .reviews .container-13 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .reviews .component-4 {
+    align-self: stretch !important;
+    flex: 1 !important;
+    flex-grow: 1 !important;
+  }
+  
+  .reviews .div-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .container-14 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 136px 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .container-15 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 1200px;
+    padding: 0px 24px;
+    position: relative;
+    width: 1184px;
+  }
+  
+  .reviews .container-16 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0px 193px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .write-a-review-make {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: var(--www-tripadvisor-com-au-inter-extra-bold-37-24-font-family);
+    font-size: var(--www-tripadvisor-com-au-inter-extra-bold-37-24-font-size);
+    font-style: var(--www-tripadvisor-com-au-inter-extra-bold-37-24-font-style);
+    font-weight: var(--www-tripadvisor-com-au-inter-extra-bold-37-24-font-weight);
+    letter-spacing: var(--www-tripadvisor-com-au-inter-extra-bold-37-24-letter-spacing);
+    line-height: var(--www-tripadvisor-com-au-inter-extra-bold-37-24-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .reviews .stories-like-yours-wrapper {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    max-width: 670px;
+    padding: 0px 10.47px 0px 10.45px;
+    position: relative;
+    width: 670px;
+  }
+  
+  .reviews .stories-like-yours {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: var(--www-tripadvisor-com-au-inter-regular-22-88-font-family);
+    font-size: var(--www-tripadvisor-com-au-inter-regular-22-88-font-size);
+    font-style: var(--www-tripadvisor-com-au-inter-regular-22-88-font-style);
+    font-weight: var(--www-tripadvisor-com-au-inter-regular-22-88-font-weight);
+    letter-spacing: var(--www-tripadvisor-com-au-inter-regular-22-88-letter-spacing);
+    line-height: var(--www-tripadvisor-com-au-inter-regular-22-88-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .reviews .container-17 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    max-width: 750px;
+    position: relative;
+    width: 750px;
+  }
+  
+  .reviews .container-18 {
+    align-self: stretch;
+    height: 48px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .container-19 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 750px;
+  }
+  
+  .reviews .background-border-2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 48px;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    padding: 14.5px 13px 14.5px 45px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .input-search-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .reviews .input-search {
+    align-self: stretch;
+    background-color: #e3d8bf;
+    height: 19px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .overlap-group-3 {
+    height: 19px;
+    position: relative;
+    width: 692px;
+  }
+  
+  .reviews .container-20 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 688px;
+  }
+  
+  .reviews .p {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: var(--www-tripadvisor-com-au-semantic-input-font-family);
+    font-size: var(--www-tripadvisor-com-au-semantic-input-font-size);
+    font-style: var(--www-tripadvisor-com-au-semantic-input-font-style);
+    font-weight: var(--www-tripadvisor-com-au-semantic-input-font-weight);
+    letter-spacing: var(--www-tripadvisor-com-au-semantic-input-letter-spacing);
+    line-height: var(--www-tripadvisor-com-au-semantic-input-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .reviews .container-21 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 0px 4px 0px 0px;
+    position: absolute;
+    top: 0;
+    width: 692px;
+  }
+  
+  .reviews .container-22 {
+    flex: 1;
+    flex-grow: 1;
+    height: 19px;
+    position: relative;
+  }
+  
+  .reviews .component-2-instance {
+    left: 19px !important;
+    position: absolute !important;
+    top: 14px !important;
+  }
+  
+  .reviews .container-23 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 32px;
+    justify-content: center;
+    padding: 0px 286px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .hero-image-png-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .reviews .hero-image-png {
+    background-image: url(./hero-image-2-png.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    width: 167px;
+  }
+  
+  .reviews .hero-image-png-2 {
+    background-image: url(./hero-image-3-png.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    width: 167px;
+  }
+  
+  .reviews .container-24 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 192px 8px 96px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .container-25 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 96px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .reviews .container-26 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .reviews .text-wrapper-4 {
+    align-self: stretch;
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: var(--www-tripadvisor-com-au-inter-bold-20-81-font-family);
+    font-size: var(--www-tripadvisor-com-au-inter-bold-20-81-font-size);
+    font-style: var(--www-tripadvisor-com-au-inter-bold-20-81-font-style);
+    font-weight: var(--www-tripadvisor-com-au-inter-bold-20-81-font-weight);
+    letter-spacing: var(--www-tripadvisor-com-au-inter-bold-20-81-letter-spacing);
+    line-height: var(--www-tripadvisor-com-au-inter-bold-20-81-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .reviews .text-wrapper-5 {
+    align-self: stretch;
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: var(--www-tripadvisor-com-au-inter-regular-15-font-family);
+    font-size: var(--www-tripadvisor-com-au-inter-regular-15-font-size);
+    font-style: var(--www-tripadvisor-com-au-inter-regular-15-font-style);
+    font-weight: var(--www-tripadvisor-com-au-inter-regular-15-font-weight);
+    letter-spacing: var(--www-tripadvisor-com-au-inter-regular-15-letter-spacing);
+    line-height: var(--www-tripadvisor-com-au-inter-regular-15-line-height);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .reviews .image {
+    height: 90px;
+    left: 236px;
+    position: absolute;
+    top: -875px;
+    width: 728px;
+  }

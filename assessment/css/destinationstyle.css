@@ -1,0 +1,1289 @@
+.destinations {
+    align-items: flex-start;
+    background-color: var(--wwwtripadvisorcomauwhite);
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .destinations .body-paints {
+    height: 1000px;
+    left: -600px;
+    position: absolute;
+    top: -500px;
+    width: 1200px;
+  }
+  .destinations .image-2 {
+    height: 309.33px;
+    object-fit: cover;
+    position: relative;
+    width: 928px;
+  }
+  .destinations .logo {
+    height: 40px;
+    position: relative;
+    width: 40px;
+  }
+
+  .destinations .container {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .main {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .div {
+    align-self: stretch;
+    height: 1000px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .overlap {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1200px;
+  }
+  
+  .destinations .container-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 107px;
+    max-width: 946.67px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 0;
+    width: 947px;
+  }
+  
+  .destinations .container-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    min-height: 6.67px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .margin {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 6.67px 0px;
+    position: relative;
+  }
+  
+  .destinations .container-3 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    height: 25px;
+    padding: 6.67px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .div-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-bottom: -0.17px;
+    margin-top: -0.17px;
+    position: relative;
+  }
+  
+  .destinations .container-4 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .travellers-choice {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 9.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 11.7px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .destinations .text-wrapper {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 9.2px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 11.7px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .destinations .world {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 9.1px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 11.7px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .destinations .container-5 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding: 13.33px 0px;
+    position: relative;
+  }
+  
+  .destinations .container-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .destinations .best-destinations-in {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 9.4px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 11.7px;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .destinations .header {
+    align-items: center;
+    background-color: #e3d8bf;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1200px;
+  }
+  
+  .destinations .nav-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 0px 20px;
+    position: relative;
+    width: 986.67px;
+  }
+  
+  .destinations .nav {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .link-wrapper {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    position: relative;
+    width: 238.33px;
+  }
+  
+  .destinations .link {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 50px;
+    position: relative;
+  }
+  
+  .destinations .picture-tripadvisor {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .destinations .tripadvisor-lockup {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: center;
+    padding: 8.34px 0px;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .destinations .overlap-group-wrapper {
+    height: 33.33px;
+    overflow: hidden;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .destinations .overlap-group {
+    height: 33px;
+    position: relative;
+    width: 157px;
+  }
+  
+  .destinations .group {
+    background-image: url(./screenshot-2024-09-14-at-2-59-27-PM.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 33px;
+  }
+  
+  .destinations .text-wrapper-2 {
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 16.7px;
+    font-weight: 700;
+    height: 26px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    width: 157px;
+  }
+  
+  .destinations .container-7 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .destinations .background-border-wrapper {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .background-border {
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border: 1.67px solid;
+    border-color: #e0e0e0;
+    border-radius: 83.33px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-left: -17.55px;
+    margin-right: -17.55px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 1.67px 15px;
+    position: relative;
+    width: 384.73px;
+  }
+  
+  .destinations .search {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    height: 36.67px;
+    justify-content: center;
+    padding: 3.33px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .container-8 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 6.67px;
+    position: relative;
+  }
+  
+  .destinations .button-search {
+    flex: 0 0 auto;
+    height: 30px;
+    position: relative;
+  }
+  
+  .destinations .div-2 {
+    flex: 1;
+    flex-grow: 1;
+    height: 15px;
+    position: relative;
+  }
+  
+  .destinations .overlap-group-2 {
+    height: 17px;
+    position: relative;
+    width: 328px;
+  }
+  
+  .destinations .container-9 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 325px;
+  }
+  
+  .destinations .text-wrapper-3 {
+    color: var(--wwwtripadvisorcomauboulder);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13.2px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.83px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .destinations .container-10 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 0px 3.33px 0px 0px;
+    position: absolute;
+    top: 0;
+    width: 328px;
+  }
+  
+  .destinations .container-11 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .container-12 {
+    align-items: flex-start;
+    display: flex;
+    height: 33.33px;
+    position: relative;
+    width: 202.71px;
+  }
+  
+  .destinations .container-13 {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .destinations .button-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-bottom: -0.17px;
+    margin-top: -0.17px;
+    position: relative;
+  }
+  
+  .destinations .button {
+    all: unset;
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border-radius: 16.67px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 8.33px 13.33px;
+    position: relative;
+  }
+  
+  .destinations .text-wrapper-4 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .destinations .text-wrapper-5 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.8px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .destinations .container-14 {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-right: -1.29px;
+    position: relative;
+  }
+  
+  .destinations .container-15 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 6.67px;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .destinations .button-2 {
+    all: unset;
+    align-items: center;
+    background-color: #6e9aaf;
+    border-radius: 16.67px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 8.33px 13.33px;
+    position: relative;
+  }
+  
+  .destinations .container-16 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 6.67px;
+    position: relative;
+  }
+  
+  .destinations .SVG {
+    height: 16.67px;
+    position: relative;
+    width: 16.67px;
+  }
+  
+  .destinations .vertical-divider {
+    background-color: #000000;
+    height: 18.33px;
+    position: relative;
+    width: 1px;
+  }
+  
+  .destinations .text-wrapper-6 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .destinations .link-2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #6e9aaf;
+    border-radius: 16.67px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 8.33px 13.33px;
+    position: relative;
+  }
+  
+  .destinations .container-17 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-left: -0.08px;
+    margin-right: -0.08px;
+    position: relative;
+    width: 39.33px;
+  }
+  
+  .destinations .container-18 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .destinations .text-wrapper-7 {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.9px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .destinations .overlap-2 {
+    height: 378px;
+    left: -2px;
+    position: absolute;
+    top: 70px;
+    width: 1200px;
+  }
+  
+  .destinations .container-19 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 309px;
+    left: 127px;
+    position: absolute;
+    top: 0;
+    width: 928px;
+  }
+  
+  .destinations .TC-header {
+    align-self: stretch;
+    background-image: url(./TC-header-1440x480-trending-destinations-2024-c1-png.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 309.33px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .gradient {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 77.61%, rgba(0, 0, 0, 0.6) 100%);
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 150px;
+    width: 928px;
+  }
+  
+  .destinations .container-20 {
+    align-items: flex-end;
+    display: flex;
+    height: 309px;
+    left: 113px;
+    max-width: 732.09px;
+    position: absolute;
+    top: 0;
+    width: 732px;
+  }
+  
+  .destinations .link-margin {
+    height: 103.43px;
+    position: relative;
+    width: 56.71px;
+  }
+  
+  .destinations .margin-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 15.47px 41.24px 25.78px;
+    position: relative;
+  }
+  
+  .destinations .container-21 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 3.48px;
+    position: relative;
+  }
+  
+  .destinations .travellers-choice-2 {
+    color: #e3d8bf;
+    font-family: var(--new-paragraph-font-family);
+    font-size: var(--new-paragraph-font-size);
+    font-style: var(--new-paragraph-font-style);
+    font-weight: var(--new-paragraph-font-weight);
+    letter-spacing: var(--new-paragraph-letter-spacing);
+    line-height: var(--new-paragraph-line-height);
+    margin-top: -0.64px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .destinations .heading {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 0px 0.38px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .p {
+    color: #e3d8bf;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 31.2px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 43.3px;
+    margin-top: -0.64px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .destinations .background-shadow {
+    align-items: center;
+    background-color: #e3d8bf;
+    box-shadow: 0px 1.67px 10px #00000026;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 46.67px 126.67px 20px;
+    position: absolute;
+    top: 278px;
+    width: 1200px;
+  }
+  
+  .destinations .container-22 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    max-width: 946.67px;
+    position: relative;
+    width: 946.67px;
+  }
+  
+  .destinations .button-listbox-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 187.5px;
+    padding: 0.83px 0.83px 2.5px;
+    position: relative;
+  }
+  
+  .destinations .button-listbox {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    border: 0.83px solid;
+    border-color: #000000;
+    border-radius: 16.67px;
+    display: flex;
+    flex: 0 0 auto;
+    margin-bottom: -0.83px;
+    margin-left: -0.83px;
+    margin-right: -0.83px;
+    margin-top: -0.83px;
+    padding: 6.67px 65.17px 6.67px 65.17px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .container-23 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .destinations .text-wrapper-8 {
+    color: #000000;
+    font-family: var(--new-paragraph-font-family);
+    font-size: var(--new-paragraph-font-size);
+    font-style: var(--new-paragraph-font-style);
+    font-weight: var(--new-paragraph-font-weight);
+    letter-spacing: var(--new-paragraph-letter-spacing);
+    line-height: var(--new-paragraph-line-height);
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .destinations .container-24 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .destinations .container-25 {
+    align-self: stretch;
+    height: 33.33px;
+    overflow: scroll;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .container-26 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .destinations .link-3 {
+    align-items: flex-start;
+    background-color: #6e9aaf;
+    border-radius: 16.67px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: 8.33px 13.33px;
+    position: relative;
+  }
+  
+  .destinations .container-27 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 2.87px;
+    position: relative;
+  }
+  
+  .destinations .container-28 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: 33px;
+    left: 184px;
+    padding: 0.83px 0.83px 2.5px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .destinations .link-4 {
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border: 0.83px solid;
+    border-color: #000000;
+    border-radius: 16.67px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -0.83px;
+    margin-left: -0.83px;
+    margin-right: -0.83px;
+    margin-top: -0.83px;
+    padding: 6.67px 11.67px;
+    position: relative;
+  }
+  
+  .destinations .text-wrapper-9 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: var(--new-paragraph-font-family);
+    font-size: var(--new-paragraph-font-size);
+    font-style: var(--new-paragraph-font-style);
+    font-weight: var(--new-paragraph-font-weight);
+    letter-spacing: var(--new-paragraph-letter-spacing);
+    line-height: var(--new-paragraph-line-height);
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .destinations .container-29 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: 33px;
+    left: 335px;
+    padding: 0.83px 0.83px 2.5px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .destinations .container-30 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: 33px;
+    left: 506px;
+    padding: 0.83px 0.83px 2.5px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .destinations .container-31 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: 33px;
+    left: 665px;
+    padding: 0.83px 0.83px 2.5px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .destinations .container-32 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 2.86px;
+    position: relative;
+  }
+  
+  .destinations .margin-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: 33px;
+    justify-content: center;
+    left: 1041px;
+    padding: 0px 20px 0px 0px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .destinations .container-33 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: 33.33px;
+    padding: 0.83px 0.83px 2.5px;
+    position: relative;
+  }
+  
+  .destinations .link-5 {
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border: 0.83px solid;
+    border-color: #000000;
+    border-radius: 16.67px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -1.17px;
+    margin-left: -0.83px;
+    margin-right: -0.83px;
+    margin-top: -0.83px;
+    padding: 6.67px 11.67px;
+    position: relative;
+  }
+  
+  .destinations .text-wrapper-10 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.2px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .destinations .container-34 {
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 718px;
+  }
+  
+  .destinations .button-next {
+    height: 33.33px;
+    position: relative;
+    width: 33.33px;
+  }
+  
+  .destinations .overlap-3 {
+    height: 595px;
+    left: 106px;
+    position: absolute;
+    top: 467px;
+    width: 966px;
+  }
+  
+  .destinations .container-35 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 19px;
+    max-width: 946.67px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 0;
+    width: 947px;
+  }
+  
+  .destinations .container-36 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 13.33px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .text-wrapper-11 {
+    align-self: stretch;
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: var(--montserrat-h3-font-family);
+    font-size: var(--montserrat-h3-font-size);
+    font-style: var(--montserrat-h3-font-style);
+    font-weight: var(--montserrat-h3-font-weight);
+    letter-spacing: var(--montserrat-h3-letter-spacing);
+    line-height: var(--montserrat-h3-line-height);
+    margin-top: -0.83px;
+    position: relative;
+  }
+  
+  .destinations .container-37 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 83.33px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .container-38 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 13.33px;
+    max-width: 626.67px;
+    position: relative;
+  }
+  
+  .destinations .text-wrapper-12 {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: var(--new-paragraph-font-family);
+    font-size: var(--new-paragraph-font-size);
+    font-style: var(--new-paragraph-font-style);
+    font-weight: var(--new-paragraph-font-weight);
+    letter-spacing: var(--new-paragraph-letter-spacing);
+    line-height: var(--new-paragraph-line-height);
+    margin-top: -0.83px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .destinations .the-best-of-the-best {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: var(--new-paragraph-font-family);
+    font-size: var(--new-paragraph-font-size);
+    font-style: var(--new-paragraph-font-style);
+    font-weight: var(--new-paragraph-font-weight);
+    letter-spacing: var(--new-paragraph-letter-spacing);
+    line-height: var(--new-paragraph-line-height);
+    margin-right: -208.33px;
+    margin-top: -0.83px;
+    position: relative;
+    width: 835px;
+  }
+  
+  .destinations .container-39 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 26.67px;
+    left: 0;
+    max-width: 946.67px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 140px;
+    width: 947px;
+  }
+  
+  .destinations .figure-carousel-of-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 426.67px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .figure-carousel-of {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--wwwtripadvisorcomaublack);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .list {
+    align-self: stretch;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .item {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 907px;
+  }
+  
+  .destinations .caption-jpg-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-right: -40px;
+    padding: 0px 0px 2.5px;
+    position: relative;
+  }
+  
+  .destinations .caption-jpg {
+    align-self: stretch;
+    background-image: url(./caption-jpg.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .destinations .background {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 75%);
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 385px;
+    width: 907px;
+  }
+  
+  .destinations .container-40 {
+    align-items: center;
+    display: flex;
+    height: 33px;
+    justify-content: center;
+    padding: 16.67px 420.83px;
+    position: relative;
+    top: 8px;
+    width: 947px;
+  }
+  
+  .destinations .container-41 {
+    height: 1px;
+    margin-bottom: -0.58px;
+    margin-top: -0.42px;
+    position: relative;
+    width: 105px;
+  }
+  
+  .destinations .background-wrapper {
+    align-items: center;
+    display: flex;
+    left: 16px;
+    position: absolute;
+    top: -1px;
+    width: 6px;
+  }
+  
+  .destinations .background-2 {
+    background-color: #e3d8bf;
+    border-radius: 6.5px;
+    height: 6.5px;
+    position: relative;
+    width: 6.5px;
+  }
+  
+  .destinations .overlay-wrapper {
+    align-items: center;
+    display: flex;
+    left: 33px;
+    position: absolute;
+    top: 0;
+    width: 5px;
+  }
+  
+  .destinations .overlay {
+    background-color: var(--wwwtripadvisorcomaualto-80);
+    border-radius: 5px;
+    height: 5px;
+    position: relative;
+    width: 5px;
+  }
+  
+  .destinations .container-42 {
+    align-items: center;
+    display: flex;
+    left: 50px;
+    position: absolute;
+    top: 0;
+    width: 5px;
+  }
+  
+  .destinations .container-43 {
+    align-items: center;
+    display: flex;
+    left: 67px;
+    position: absolute;
+    top: 0;
+    width: 5px;
+  }
+  
+  .destinations .container-44 {
+    align-items: center;
+    display: flex;
+    left: 83px;
+    position: absolute;
+    top: 0;
+    width: 5px;
+  }
+  
+  .destinations .separator {
+    background-color: var(--wwwtripadvisorcomauyellow-sea);
+    height: 1px;
+    margin-bottom: -0.17px;
+    margin-right: -40px;
+    max-width: 946.67px;
+    position: relative;
+    width: 946.67px;
+  }
+  
+  .destinations .img {
+    height: 75px;
+    left: 297px;
+    position: absolute;
+    top: 2889px;
+    width: 607px;
+  }
+  
+  .destinations .container-45 {
+    height: 75px;
+    left: 297px;
+    position: absolute;
+    top: 11459px;
+    width: 607px;
+  }
+  
+  .destinations .header-2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-bottom: -35.83px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .container-46 {
+    align-self: stretch;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .destinations .image {
+    height: 75px;
+    left: -303px;
+    position: absolute;
+    top: -12214px;
+    width: 607px;
+  }

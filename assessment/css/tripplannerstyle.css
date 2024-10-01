@@ -1,0 +1,1007 @@
+.trip-planner {
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+  }
+  
+  .trip-planner .container {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 1200px;
+  }
+  
+  .trip-planner .header {
+    align-items: center;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .nav-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 0px 20px;
+    position: relative;
+    width: 986.67px;
+  }
+  
+  .trip-planner .nav {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .link-wrapper {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    position: relative;
+    width: 238.33px;
+  }
+  
+  .trip-planner .link {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 50px;
+    position: relative;
+  }
+  
+  .trip-planner .picture-tripadvisor {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .trip-planner .tripadvisor-lockup {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: center;
+    padding: 8.34px 0px;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .trip-planner .overlap-group-wrapper {
+    height: 33.33px;
+    overflow: hidden;
+    position: relative;
+    width: 156.67px;
+  }
+  
+  .trip-planner .overlap-group {
+    height: 33px;
+    position: relative;
+    width: 157px;
+  }
+  
+  .trip-planner .group {
+    background-image: url(assests/tripplannerassets/screenshot-2024-09-14-at-2-59-27-pm.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 33px;
+  }
+  
+  .trip-planner .text-wrapper {
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 16.7px;
+    font-weight: 700;
+    height: 26px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    width: 157px;
+  }
+  
+  .trip-planner .container-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .trip-planner .background-border-wrapper {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .background-border {
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border: 1.67px solid;
+    border-color: #e0e0e0;
+    border-radius: 83.33px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-left: -17.55px;
+    margin-right: -17.55px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 1.67px 15px;
+    position: relative;
+    width: 384.73px;
+  }
+  
+  .trip-planner .search {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    height: 36.67px;
+    justify-content: center;
+    padding: 3.33px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .div {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 6.67px;
+    position: relative;
+  }
+  
+  .trip-planner .button-search {
+    flex: 0 0 auto;
+    height: 30px;
+    position: relative;
+  }
+  
+  .trip-planner .div-2 {
+    flex: 1;
+    flex-grow: 1;
+    height: 15px;
+    position: relative;
+  }
+  
+  .trip-planner .overlap-group-2 {
+    height: 17px;
+    position: relative;
+    width: 328px;
+  }
+  
+  .trip-planner .div-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 325px;
+  }
+  
+  .trip-planner .text-wrapper-2 {
+    color: var(--wwwtripadvisorcomauboulder);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13.2px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.83px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .trip-planner .container-2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 0px 3.33px 0px 0px;
+    position: absolute;
+    top: 0;
+    width: 328px;
+  }
+  
+  .trip-planner .container-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .trip-planner .container-4 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .container-5 {
+    align-items: flex-start;
+    display: flex;
+    height: 33.33px;
+    position: relative;
+    width: 202.71px;
+  }
+  
+  .trip-planner .container-6 {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .trip-planner .button-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-bottom: -0.17px;
+    margin-top: -0.17px;
+    position: relative;
+  }
+  
+  .trip-planner .button {
+    all: unset;
+    align-items: flex-start;
+    background-color: #e3d8bf;
+    border-radius: 16.67px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 8.33px 13.33px;
+    position: relative;
+  }
+  
+  .trip-planner .text-wrapper-3 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .trip-planner .text-wrapper-4 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.8px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .trip-planner .container-7 {
+    align-items: center;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-right: -1.29px;
+    position: relative;
+  }
+  
+  .trip-planner .container-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 6.67px;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .trip-planner .button-2 {
+    all: unset;
+    align-items: center;
+    background-color: #6e9aaf;
+    border-radius: 16.67px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 8.33px 13.33px;
+    position: relative;
+  }
+  
+  .trip-planner .container-9 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 6.67px;
+    position: relative;
+  }
+  
+  .trip-planner .SVG {
+    height: 16.67px;
+    position: relative;
+    width: 16.67px;
+  }
+  
+  .trip-planner .vertical-divider {
+    background-color: #000000;
+    height: 18.33px;
+    position: relative;
+    width: 1px;
+  }
+  
+  .trip-planner .text-wrapper-5 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .trip-planner .link-2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #6e9aaf;
+    border-radius: 16.67px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 8.33px 13.33px;
+    position: relative;
+  }
+  
+  .trip-planner .container-10 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-left: -0.08px;
+    margin-right: -0.08px;
+    position: relative;
+    width: 39.33px;
+  }
+  
+  .trip-planner .container-11 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .trip-planner .logo {
+    height: 40px;
+    position: relative;
+    width: 40px;
+  }
+
+  .trip-planner .text-wrapper-6 {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 11.9px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .trip-planner .main {
+    align-items: center;
+    align-self: stretch;
+    background-color: #e3d8bf;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    padding: 66.67px 106.67px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .container-12 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-bottom: -428.17px;
+    max-width: 1200px;
+    padding: 0px 20px;
+    position: relative;
+    width: 986.67px;
+  }
+  
+  .trip-planner .container-13 {
+    align-self: stretch;
+    height: 1361.5px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .container-14 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    left: 199px;
+    max-width: 504.17px;
+    position: absolute;
+    top: -92px;
+    width: 504px;
+  }
+  
+  .trip-planner .heading {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 108.33px;
+    padding: 0px 15.97px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .personalise-your {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    height: 141.67px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -32.5px;
+    margin-left: -0.13px;
+    margin-right: -0.13px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    width: 472.5px;
+  }
+  
+  .trip-planner .container-15 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 55px;
+    padding: 0px 10.91px 0px 10.9px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .p {
+    align-self: stretch;
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.5px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18.3px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .trip-planner .container-16 {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    left: 14px;
+    padding: 0px 153.33px;
+    position: absolute;
+    top: 114px;
+    width: 947px;
+  }
+  
+  .trip-planner .container-17 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 66.67px;
+    position: relative;
+  }
+  
+  .trip-planner .container-18 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 2.69px 0px 2.68px;
+    position: relative;
+    width: 110px;
+  }
+  
+  .trip-planner .border {
+    height: 35px;
+    position: relative;
+    width: 35px;
+  }
+  
+  .trip-planner .text-wrapper-7 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -0.19px;
+    margin-right: -0.19px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .trip-planner .text-wrapper-8 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.4px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .trip-planner .container-19 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 4.62px 0px 4.62px;
+    position: relative;
+    width: 110px;
+  }
+  
+  .trip-planner .text-wrapper-9 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .trip-planner .text-wrapper-10 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -0.12px;
+    margin-right: -0.12px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .trip-planner .text-wrapper-11 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.9px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .trip-planner .container-20 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0.51px 0px 0.49px;
+    position: relative;
+    width: 110px;
+  }
+  
+  .trip-planner .text-wrapper-12 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.6px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .trip-planner .text-wrapper-13 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.8px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .trip-planner .container-21 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 2.47px;
+    position: relative;
+    width: 110px;
+  }
+  
+  .trip-planner .text-wrapper-14 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 13.3px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -0.47px;
+    margin-right: -0.47px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .trip-planner .container-22 {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    left: 14px;
+    padding: 0px 315.07px;
+    position: absolute;
+    top: 218px;
+    width: 947px;
+  }
+  
+  .trip-planner .already-started {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 16.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -34.74px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .trip-planner .button-3 {
+    all: unset;
+    align-items: flex-end;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .trip-planner .container-23 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .text-wrapper-15 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 16.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .trip-planner .to-see-your-saved {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 16.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -34.74px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .trip-planner .container-24 {
+    align-items: flex-start;
+    display: flex;
+    gap: 13.33px;
+    justify-content: center;
+    left: 14px;
+    position: absolute;
+    top: 261px;
+    width: 947px;
+  }
+  
+  .trip-planner .background {
+    align-items: center;
+    align-self: stretch;
+    background-color: #788983;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 80px 116.67px;
+    position: relative;
+    width: 466.67px;
+  }
+  
+  .trip-planner .container-25 {
+    height: 473.33px;
+    max-width: 233.33px;
+    position: relative;
+    width: 233.33px;
+  }
+  
+  .trip-planner .picture-wrapper {
+    height: 272px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 233px;
+  }
+  
+  .trip-planner .picture {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 272px;
+    justify-content: center;
+    position: relative;
+    width: 233px;
+  }
+  
+  .trip-planner .start-with-ai {
+    align-self: stretch;
+    background-image: url(./start-with-ai-v2-3x-png.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .container-26 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 298px;
+    width: 233px;
+  }
+  
+  .trip-planner .text-wrapper-16 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20.9px;
+    font-weight: 400;
+    letter-spacing: 0.47px;
+    line-height: 23.3px;
+    margin-right: -115.83px;
+    margin-top: -0.83px;
+    position: relative;
+    width: 349.17px;
+  }
+  
+  .trip-planner .container-27 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 358px;
+    width: 233px;
+  }
+  
+  .trip-planner .respond-to-four {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 16.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-right: -91.67px;
+    margin-top: -0.83px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .trip-planner .span {
+    color: #000000;
+  }
+  
+  .trip-planner .text-wrapper-17 {
+    color: #333333;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.7px;
+    line-height: 18.3px;
+  }
+  
+  .trip-planner .container-28 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 445px;
+    width: 233px;
+  }
+  
+  .trip-planner .link-3 {
+    align-items: flex-start;
+    background-color: #6e9aaf;
+    border-radius: 20px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 11.67px 20px;
+    position: relative;
+  }
+  
+  .trip-planner .container-29 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 3.33px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .trip-planner .text-wrapper-18 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.1px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .trip-planner .build-from-scratch {
+    align-self: stretch;
+    background-image: url(./build-from-scratch.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+  }
+  
+  .trip-planner .text-wrapper-19 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20.8px;
+    font-weight: 400;
+    letter-spacing: 0.47px;
+    line-height: 23.3px;
+    margin-right: -75px;
+    margin-top: -0.83px;
+    position: relative;
+    width: 308.33px;
+  }
+  
+  .trip-planner .text-wrapper-20 {
+    color: var(--wwwtripadvisorcomaumine-shaft);
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 16.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: -65px;
+    margin-top: -0.83px;
+    position: relative;
+    width: 298.33px;
+  }
+  
+  .trip-planner .button-4 {
+    all: unset;
+    align-items: flex-start;
+    background-color: #6e9aaf;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 11.67px 20px;
+    position: relative;
+  }
+  
+  .trip-planner .container-30 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .trip-planner .text-wrapper-21 {
+    color: var(--wwwtripadvisorcomaublack);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12.1px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.7px;
+    margin-top: -0.83px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
