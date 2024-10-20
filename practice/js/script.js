@@ -1,0 +1,1 @@
+export let print = "Java Script loaded";

@@ -1,9 +1,13 @@
+body {
+  background-color: #e3d8bf;
+}
+
 .homepage {
     align-items: flex-start;
     background-color: #e3d8bf;
     display: flex;
     flex-direction: column;
-    height: 1096px;
+    height: 100vh;
     position: relative;
   }
   
@@ -238,8 +242,8 @@
   }
   
   .homepage .text-wrapper-2 {
-    color: var(--wwwtripadvisorcomaublack);
-    font-family: var(--new-paragraph-font-family);
+    color: #000000;
+    font-family:  var(--montserrat-h3-font-family);
     font-size: var(--new-paragraph-font-size);
     font-style: var(--new-paragraph-font-style);
     font-weight: var(--new-paragraph-font-weight);
@@ -298,7 +302,7 @@
   }
   
   .homepage .vertical-divider {
-    background-color: #000000;
+    background-color: #E1672A;
     height: 18.33px;
     position: relative;
     width: 1px;
@@ -373,12 +377,10 @@
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    left: 107px;
     max-width: 1200px;
-    padding: 0px 20px;
     position: absolute;
     top: 0;
-    width: 987px;
+    width: 100%;
   }
   
   .homepage .heading {
@@ -387,7 +389,6 @@
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
-    padding: 0px 369.73px 0px 369.74px;
     position: relative;
     width: 100%;
   }

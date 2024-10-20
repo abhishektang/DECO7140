@@ -1,11 +1,17 @@
 :root {
     --grey: rgba(141, 145, 152, 1);
+    --montserrat-h3-font-family: "Montserrat", Helvetica;
+    --montserrat-h3-font-size: 36px;
+    --montserrat-h3-font-style: normal;
+    --montserrat-h3-font-weight: 400;
+    --montserrat-h3-letter-spacing: 0px;
+    --montserrat-h3-line-height: normal;
     --new-paragraph-font-family: "Montserrat", Helvetica;
     --new-paragraph-font-size: 12px;
     --new-paragraph-font-style: normal;
     --new-paragraph-font-weight: 400;
     --new-paragraph-letter-spacing: 0px;
-    --new-paragraph-line-height: normal;
+    --new-paragraph-line-height: normal;;
     --www-tripadvisor-com-au-inter-bold-14-25-font-family: "Inter", Helvetica;
     --www-tripadvisor-com-au-inter-bold-14-25-font-size: 14.25px;
     --www-tripadvisor-com-au-inter-bold-14-25-font-style: normal;

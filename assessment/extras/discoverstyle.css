@@ -1,3 +1,7 @@
+body {
+    background-color: #e3d8bf;
+  }
+  
 .discovers {
     align-items: flex-start;
     background-color: #e3d8bf;
@@ -13,6 +17,14 @@
     position: absolute;
     top: 0;
     width: 1200px;
+  }
+
+  .discovers .image_sub {
+    height: 620px;
+    width: 1100px;
+    object-fit: cover;
+    position: relative;
+   
   }
 
   .discovers .logo {
@@ -442,21 +454,19 @@
     text-align: center;
   }
   
-  .discovers .main {
-    align-items: flex-start;
+  .discovers .main_sub1 {
     align-self: stretch;
     background-color: #e3d8bf;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 72px;
+    height: 999.72px;
+    margin-bottom: -96.39px;
     position: relative;
     width: 100%;
+    
   }
   
-  .discovers .container-12 {
+  .discovers .container-12_sub1 {
     align-items: center;
-    align-self: stretch;
+
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
@@ -464,31 +474,30 @@
     overflow: hidden;
     padding: 0px 1.49e-13px 0px 0px;
     position: relative;
-    width: 100%;
+
   }
   
-  .discovers .margin {
+  .discovers .margin_sub1 {
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 668px;
-    padding: 24px 48.89px;
+    padding: 70px 0px;
     position: relative;
-    width: 1200px;
+    
   }
   
-  .discovers .container-13 {
+  .discovers .container-13_sub1 {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     height: 620px;
     justify-content: center;
-    max-width: 1440px;
     position: relative;
-    width: 1102.22px;
+    width: 1100px
   }
   
-  .discovers .link-wrapper {
+  .discovers .link-wrapper_sub1 {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -496,30 +505,26 @@
     flex-direction: column;
     flex-grow: 1;
     position: relative;
-    width: 100%;
   }
   
-  .discovers .picture-wrapper {
+  .discovers .picture-wrapper_sub1 {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
     flex: 0 0 auto;
     justify-content: center;
     position: relative;
-    width: 100%;
+    width: 1000px;
   }
   
-  .discovers .picture {
-    align-self: stretch;
-    background-image: url(./picture-5.png);
-    background-position: 50% 50%;
-    background-size: cover;
-    flex: 1;
-    flex-grow: 1;
-    position: relative;
+  .discovers .image_sub1{
+    max-width: 100%;
+    height: auto;
+
+
   }
   
-  .discovers .img {
+  .discovers .img_sub1 {
     height: 40px;
     left: 80px;
     position: absolute;
@@ -527,7 +532,7 @@
     width: 40px;
   }
   
-  .discovers .container-14 {
+  .discovers .container-14_sub1 {
     height: 40px;
     left: 982px;
     position: absolute;
@@ -535,18 +540,19 @@
     width: 40px;
   }
   
-  .discovers .background {
+  .discovers .background_sub1 {
     align-items: flex-start;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.95) 100%);
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    left: 0;
+    gap: 5px;
     max-height: 290px;
     padding: 28px 200px 24px 80px;
     position: absolute;
     top: 342px;
-    width: 1102px;
+    margin-top: 91px;
+    right: 0;
+    left: 1px;
   }
   
   .discovers .div-2 {
@@ -584,17 +590,17 @@
     position: relative;
   }
   
-  .discovers .link-3 {
+  .discovers .link-3_sub1 {
     align-items: flex-start;
     background-color: #6e9aaf;
     border-radius: 24px;
     display: inline-flex;
     flex: 0 0 auto;
-    padding: 22px 24px 14px;
+    padding: 10px 24px 10px;
     position: relative;
   }
   
-  .discovers .text-wrapper-6 {
+  .discovers .text-wrapper-6_sub1 {
     color: var(--wwwtripadvisorcomaublack);
     font-family: "Inter-Regular", Helvetica;
     font-size: 15px;
@@ -608,7 +614,7 @@
     width: fit-content;
   }
   
-  .discovers .margin-2 {
+  .discovers .margin-2_sub1 {
     align-items: center;
     display: flex;
     flex: 0 0 auto;
@@ -618,7 +624,7 @@
     width: 1199.98px;
   }
   
-  .discovers .text-wrapper-7 {
+  .discovers .text-wrapper-7_sub1 {
     color: var(--wwwtripadvisorcomaublack);
     font-family: var(--www-tripadvisor-com-au-inter-extra-bold-38-23-font-family);
     font-size: var(--www-tripadvisor-com-au-inter-extra-bold-38-23-font-size);
@@ -635,17 +641,16 @@
     width: fit-content;
   }
   
-  .discovers .margin-3 {
+  .discovers .margin-3_sub1 {
     align-items: center;
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
     padding: 0px 160px;
     position: relative;
-    width: 1200px;
   }
   
-  .discovers .dig-into-the-best-wrapper {
+  .discovers .dig-into-the-best-wrapper_sub1 {
     align-items: center;
     display: flex;
     flex: 0 0 auto;
@@ -656,7 +661,7 @@
     width: 880px;
   }
   
-  .discovers .dig-into-the-best {
+  .discovers .dig-into-the-best_sub1 {
     color: var(--wwwtripadvisorcomaumine-shaft);
     font-family: var(--www-tripadvisor-com-au-inter-regular-19-22-font-family);
     font-size: var(--www-tripadvisor-com-au-inter-regular-19-22-font-size);
@@ -670,7 +675,7 @@
     width: fit-content;
   }
   
-  .discovers .margin-4 {
+  .discovers .margin-4_sub1 {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -682,7 +687,7 @@
     width: 100%;
   }
   
-  .discovers .border-wrapper {
+  .discovers .border-wrapper_sub1 {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -693,7 +698,7 @@
     width: 100%;
   }
   
-  .discovers .border {
+  .discovers .border_sub1 {
     align-items: flex-start;
     align-self: stretch;
     border: 1px solid;
@@ -708,7 +713,7 @@
     position: relative;
   }
   
-  .discovers .picture-2 {
+  .discovers .picture-2_sub1 {
     align-self: stretch;
     background-image: url(./picture-13.png);
     background-position: 50% 50%;
@@ -718,7 +723,7 @@
     position: relative;
   }
   
-  .discovers .background-2 {
+  .discovers .background-2_sub1 {
     align-items: flex-start;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.95) 100%);
     display: flex;
@@ -730,7 +735,7 @@
     width: 1198px;
   }
   
-  .discovers .text-wrapper-8 {
+  .discovers .text-wrapper-8_sub1 {
     align-self: stretch;
     color: var(--wwwtripadvisorcomauwhite);
     font-family: "Inter-Regular", Helvetica;
@@ -816,15 +821,10 @@
     width: 100%;
   }
   
-  .discovers .text-wrapper-9 {
+  .discovers .text-wrapper-9_sub1 {
     align-self: stretch;
-    color: var(--wwwtripadvisorcomaublack);
+    focolor: #FFFFFF;
     font-family: "Inter-Regular", Helvetica;
-    font-size: 16.2px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 22px;
-    margin-top: -1px;
     position: relative;
   }
   

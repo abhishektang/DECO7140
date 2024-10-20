@@ -1,3 +1,5 @@
+
+
 .destinations {
     align-items: flex-start;
     background-color: var(--wwwtripadvisorcomauwhite);
@@ -15,12 +17,14 @@
     top: -500px;
     width: 1200px;
   }
+
   .destinations .image-2 {
     height: 309.33px;
     object-fit: cover;
     position: relative;
     width: 928px;
   }
+  
   .destinations .logo {
     height: 40px;
     position: relative;
@@ -37,17 +41,7 @@
     width: 100%;
   }
   
-  .destinations .main {
-    align-items: flex-start;
-    align-self: stretch;
-    background-color: #e3d8bf;
-    display: flex;
-    flex-direction: column;
-    height: 1000px;
-    position: relative;
-    width: 100%;
-  }
-  
+
   .destinations .div {
     align-self: stretch;
     height: 1000px;
@@ -109,13 +103,14 @@
   }
   
   .destinations .div-wrapper {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
+    align-items: center;
+    display: flex;
     flex-direction: column;
-    margin-bottom: -0.17px;
-    margin-top: -0.17px;
+    height: 41.67px;
+    justify-content: center;
+    padding: 6.95px 0px;
     position: relative;
+    width: 130.56px;
   }
   
   .destinations .container-4 {
@@ -142,16 +137,18 @@
   }
   
   .destinations .text-wrapper {
-    color: var(--wwwtripadvisorcomaumine-shaft);
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 9.2px;
-    font-weight: 400;
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 13.9px;
+    font-weight: 700;
+    height: 22px;
+    left: 0;
     letter-spacing: 0;
-    line-height: 11.7px;
-    margin-top: -0.83px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    width: 131px;
   }
   
   .destinations .world {

@@ -1,0 +1,60 @@
+:root{
+    --grey: rgba(141, 145, 152, 1);
+    --montserrat-h3-font-family: "Montserrat", Helvetica;
+    --montserrat-h3-font-size: 36px;
+    --montserrat-h3-font-style: normal;
+    --montserrat-h3-font-weight: 400;
+    --montserrat-h3-letter-spacing: 0px;
+    --montserrat-h3-line-height: normal;
+    --new-paragraph-font-family: "Montserrat", Helvetica;
+    --new-paragraph-font-size: 12px;
+    --new-paragraph-font-style: normal;
+    --new-paragraph-font-weight: 400;
+    --new-paragraph-letter-spacing: 0px;
+    --new-paragraph-line-height: normal;;
+}
+
+body {
+    margin: 0;
+    font-family: var(--montserrat-h3-font-family);
+    background-color: #e3d8bf; 
+    color: #333; 
+  }
+
+  h1{
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  span{
+    color: white;
+  }
+
+  h2{
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  p{
+    color: #000000;
+    font-family: "Montserrat", Helvetica;
+    font-size: 12.6px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.83px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  
+  
+  
+  
+  
+  
