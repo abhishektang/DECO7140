@@ -105,21 +105,9 @@
                 </div>
                 <div class="container-23">
                   <div class="review-form">
-                    <form id="reviewForm" method="POST" action="/submitReview" onsubmit="return validateForm()">
-                        <h2>How would you rate your experience?</h2>
-                        <div class="rating">
-                            <input type="radio" id="star5" name="rating" value="5" />
-                            <label for="star5" class="circle">&#9675;</label>
-                            <input type="radio" id="star4" name="rating" value="4" />
-                            <label for="star4" class="circle">&#9675;</label>
-                            <input type="radio" id="star3" name="rating" value="3" />
-                            <label for="star3" class="circle">&#9675;</label>
-                            <input type="radio" id="star2" name="rating" value="2" />
-                            <label for="star2" class="circle">&#9675;</label>
-                            <input type="radio" id="star1" name="rating" value="1" />
-                            <label for="star1" class="circle">&#9675;</label>
-                        </div>
-            
+                    <form id="chatPostForm" method="POST" action="/submitReview" onsubmit="return validateForm()">
+                      <label for="person_name">Maker:</label>
+                      <input type="text" id="person_name" name="person_name" required>
                         <h2>When did you go?</h2>
                         <div class="select-wrapper">
                             <select name="visitTime">
@@ -130,7 +118,6 @@
                                 <!-- Add more options as needed -->
                             </select>
                         </div>
-            
                         <h2>Who did you go with?</h2>
                         <div class="tag-wrapper">
                             <button type="button" class="tag" onclick="setTagValue('Business')">Business</button>
@@ -141,11 +128,12 @@
                         </div>
                         <input type="hidden" id="whoWith" name="whoWith" value="">
                         <h2>Title Your Review</h2>
-                        <textarea name="reviewTitle" id="reviewTitle"placeholder="The views were amazing. We took so many photos!..." maxlength="120" oninput="countTitleCharacters()" rows="3"></textarea>
+                        <textarea name="chat_post_title" id="reviewTitle"placeholder="The views were amazing. We took so many photos!..." maxlength="120" oninput="countTitleCharacters()" rows="3"></textarea>
                         <p id="titleCount">0/120 max characters</p>
                         <h2>Write your review</h2>
-                        <textarea name="reviewText" id="reviewText" placeholder="The views were amazing. We took so many photos!..." minlength="100" oninput="countReviewCharacters()" rows="1"></textarea>
+                        <textarea name="chat_post_content" id="reviewText" placeholder="The views were amazing. We took so many photos!..." minlength="100" oninput="countReviewCharacters()" rows="1"></textarea>
                         <p id="reviewCount">0/100 min characters</p>
+                        <input type="hidden" name="website_code" value="592c492" required>
                         <button type="submit">Submit Review</button>
                     </form>
                 </div>
