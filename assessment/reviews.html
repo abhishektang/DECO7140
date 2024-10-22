@@ -134,7 +134,7 @@
                         <textarea name="chat_post_content" id="reviewText" placeholder="The views were amazing. We took so many photos!..." minlength="100" oninput="countReviewCharacters()" rows="1"></textarea>
                         <p id="reviewCount">0/100 min characters</p>
                         <input type="hidden" name="website_code" value="592c492" required>
-                        <button type="submit">Submit Review</button>
+                        <button id="fetchReviewsBtn" type="submit">Submit Review</button>
                     </form>
                 </div>
                 </div>
@@ -148,8 +148,10 @@
                     <div class="text-wrapper-4">Your reviews</div>
                   </div>
                   <div class="container-2">
-                    <p class="text-wrapper-5">You have no reviews yet. After you write some reviews, they will appear here.</p>
+                    <p id="review-message" class="text-wrapper-5">You have no reviews yet. After you write some reviews, they will appear here.</p>
                   </div>
+                <!-- Review results section -->
+                <div id="review-results" class="hidden"></div>
                 </div>
               </div>
             </div>

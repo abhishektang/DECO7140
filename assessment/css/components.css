@@ -1086,3 +1086,51 @@ textarea {
   resize: vertical; 
   margin-bottom: 10px;
 }
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.review-item h2, .review-item h3, .review-item p {
+  margin: 10px 0;
+  word-wrap: break-word; 
+  white-space: pre-wrap; 
+  overflow-wrap: break-word; 
+  overflow: hidden;
+}
+
+.review-item {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #e3d8bf;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#review-results {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.text-wrapper-p{
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 12.6px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.83px;
+  position: relative;
+  white-space: nowrap;
+}
+

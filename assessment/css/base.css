@@ -39,6 +39,13 @@ body {
     font-weight: 700;
   }
 
+  h3{
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
   p{
     color: #000000;
     font-family: "Montserrat", Helvetica;
