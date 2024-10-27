@@ -142,7 +142,7 @@ function getAllReviews() {
                         <div class="review-item">
                             <h2>Person Name: ${review.person_name}</h2>
                             <h3>Title: ${review.chat_post_title}</h3>
-                            <div class="text-wrapper-p"><p>Description: ${review.chat_post_content}</p></div>
+                            <p>Description: ${review.chat_post_content}</p>
                         </div>
                     `;
                     reviewResults.innerHTML += reviewItem;

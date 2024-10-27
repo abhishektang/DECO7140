@@ -514,7 +514,7 @@ body {
     flex: 0 0 auto;
     justify-content: center;
     position: relative;
-    width: 1000px;
+    width: 100%;
   }
   
   .discovers .image_sub1{
@@ -693,29 +693,21 @@ body {
     display: flex;
     height: 632px;
     justify-content: center;
-    max-width: 1280px;
     position: relative;
     width: 100%;
   }
   
   .discovers .border_sub1 {
     align-items: flex-start;
-    align-self: stretch;
-    border: 1px solid;
-    border-color: #e0e0e0;
-    border-radius: 8px;
     display: flex;
     flex: 1;
     flex-direction: column;
-    flex-grow: 1;
-    overflow: hidden;
-    padding: 1px;
     position: relative;
+    width: 100%;
   }
   
   .discovers .picture-2_sub1 {
     align-self: stretch;
-    background-image: url(./picture-13.png);
     background-position: 50% 50%;
     background-size: cover;
     flex: 1;
@@ -728,11 +720,14 @@ body {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.95) 100%);
     display: flex;
     flex-direction: column;
-    left: 1px;
-    padding: 32px 24px 24px;
+    gap: 5px;
+    max-height: 290px;
+    padding: 28px 200px 24px 80px;
     position: absolute;
-    top: 525px;
-    width: 1198px;
+    top: 342px;
+    margin-top: 245px;
+    margin-left: 119px;
+    width: 100%;
   }
   
   .discovers .text-wrapper-8_sub1 {

@@ -16,7 +16,6 @@ body {
     width: 40px;
   }
   .reviews .container-2 {
-    align-items: flex-start;
     align-self: stretch;
     display: flex;
     flex: 0 0 auto;

@@ -18,7 +18,7 @@
     width: 1200px;
   }
 
-  .destinations .image-2 {
+  .destinations .image-2_sub2 {
     height: 309.33px;
     object-fit: cover;
     position: relative;
@@ -531,10 +531,11 @@
     position: relative;
   }
   
-  .destinations .SVG {
+  .destinations .SVG_sub2 {
     height: 16.67px;
     position: relative;
     width: 16.67px;
+    margin-left: 15px;
   }
   
   .destinations .vertical-divider {
@@ -611,12 +612,12 @@
     width: 1200px;
   }
   
-  .destinations .container-19 {
+  .destinations .container-19_sub2 {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     height: 309px;
-    left: 127px;
+    left: 240px;
     position: absolute;
     top: 0;
     width: 928px;
@@ -673,6 +674,7 @@
     flex: 0 0 auto;
     flex-direction: column;
     gap: 3.48px;
+    left: 110px;
     position: relative;
   }
   
@@ -700,17 +702,9 @@
     width: 100%;
   }
   
-  .destinations .p {
+  .destinations .des_heading {
     color: #e3d8bf;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 31.2px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 43.3px;
-    margin-top: -0.64px;
-    position: relative;
     white-space: nowrap;
-    width: fit-content;
   }
   
   .destinations .background-shadow {
@@ -745,24 +739,19 @@
     max-width: 187.5px;
     padding: 0.83px 0.83px 2.5px;
     position: relative;
+
   }
   
   .destinations .button-listbox {
     align-items: flex-start;
     align-self: stretch;
-    background-color: #e3d8bf;
-    border: 0.83px solid;
-    border-color: #000000;
-    border-radius: 16.67px;
     display: flex;
     flex: 0 0 auto;
-    margin-bottom: -0.83px;
-    margin-left: -0.83px;
-    margin-right: -0.83px;
     margin-top: -0.83px;
     padding: 6.67px 65.17px 6.67px 65.17px;
     position: relative;
-    width: 100%;
+    width: 50px;
+    height: 20px;
   }
   
   .destinations .container-23 {
@@ -771,6 +760,7 @@
     flex: 0 0 auto;
     position: relative;
   }
+
   
   .destinations .text-wrapper-8 {
     color: #000000;
@@ -782,8 +772,7 @@
     line-height: var(--new-paragraph-line-height);
     margin-top: -0.83px;
     position: relative;
-    text-align: center;
-    width: fit-content;
+    
   }
   
   .destinations .container-24 {
@@ -823,12 +812,15 @@
     position: relative;
   }
   
-  .destinations .container-27 {
+  .destinations .container-27_sub2 {
     align-items: flex-start;
-    display: inline-flex;
+    display: flex;
     flex: 0 0 auto;
     gap: 2.87px;
     position: relative;
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 8px;
   }
   
   .destinations .container-28 {
@@ -857,6 +849,21 @@
     padding: 6.67px 11.67px;
     position: relative;
   }
+
+  .destinations .link-6 {
+    background-color: #e3d8bf;
+    border: 0.83px solid;
+    border-color: #000000;
+    border-radius: 16.67px;
+    display: inline-flex;
+    align-items: flex-start;
+    margin-top: -0.83px;
+    position: relative;
+    width: 180px;
+    height: 30px;
+    margin-right: 20px;
+    align-self: center;
+  }
   
   .destinations .text-wrapper-9 {
     color: var(--wwwtripadvisorcomaublack);
@@ -866,10 +873,9 @@
     font-weight: var(--new-paragraph-font-weight);
     letter-spacing: var(--new-paragraph-letter-spacing);
     line-height: var(--new-paragraph-line-height);
-    margin-top: -0.83px;
+
     position: relative;
-    text-align: center;
-    width: fit-content;
+    margin-left: 60px;
   }
   
   .destinations .container-29 {
@@ -1252,9 +1258,9 @@
   
   .destinations .container-45 {
     height: 75px;
-    left: 297px;
+    left: 70px;
     position: absolute;
-    top: 11459px;
+    top: 120px;
     width: 607px;
   }
   

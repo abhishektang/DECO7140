@@ -3,7 +3,6 @@
   background-color: #e3d8bf;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   position: relative;
 }
 
@@ -68,12 +67,12 @@
   font-size: 13.9px;
   font-weight: 700;
   height: 22px;
-  left: 0;
+  left: 5px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 3px;
+  top: 7px;
   width: 131px;
 }
 
@@ -82,7 +81,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 453.33px;
+  margin-left: 90px;
 }
 
 .container-3 {
@@ -204,7 +203,7 @@
   padding: 0px 242.2px;
   position: absolute;
   top: 81px;
-  width: 1200px;
+  margin-left: 170px;
 }
 
 .tab-margin {
@@ -252,7 +251,7 @@
   padding: 0px 20px;
   position: absolute;
   top: 133px;
-  width: 987px;
+  margin-left: 290px;
 }
 
 .background-border {
@@ -331,7 +330,7 @@
 }
 
 .container-18 {
-  height: 1000px;
+  height: 500px;
   left: 0;
   overflow: hidden;
   position: absolute;
@@ -707,7 +706,7 @@ padding: 0px 10px;
 
 .container-13_sub {
   align-self: stretch;
-  height: 1361.5px;
+  height: 100%;
   position: relative;
   width: 100%;
 }
@@ -831,6 +830,7 @@ padding: 0px 10px;
   top: 261px;
   width: 947px;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 .background_sub {
@@ -1134,3 +1134,18 @@ hr {
   white-space: nowrap;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.trip-planner {
+  background-color: #e3d8bf;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  position: relative;
+}

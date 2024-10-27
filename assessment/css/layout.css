@@ -7,14 +7,11 @@
     flex-direction: column;
     padding: 0px 106.67px;
     position: relative;
-    width: 100%;
   }
 
   .main {
     align-self: stretch;
     background-color: #e3d8bf;
-    height: 999.72px;
-    margin-bottom: -96.39px;
     position: relative;
     width: 100%;
   }
@@ -42,14 +39,10 @@
     width: 1200px;
   }
 
-  footer{
-    align-items: center;
-    align-self: stretch;
-    background-color: #e3d8bf;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    padding: 0px 106.67px;
-    position: relative;
-    width: 100%;
-  }
+  .footer {
+    background-color: #788983;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
