@@ -1,7 +1,7 @@
 alert("Javascript works");
-console.log("This is reviewpage");
+export let review = "This is reviewpage";
 
-function countTitleCharacters() {
+export function countTitleCharacters() {
     console.log("Inside the Title Character funcion");
     const titleTextarea = document.getElementById('reviewTitle');
     const titleCount = document.getElementById('titleCount');
@@ -15,7 +15,7 @@ function countTitleCharacters() {
 }
 
 // Character count for review
-function countReviewCharacters() {
+export function countReviewCharacters() {
     console.log("Inside the Review Character funcion");
     const reviewTextarea = document.getElementById('reviewText');
     const reviewCount = document.getElementById('reviewCount');
@@ -24,7 +24,7 @@ function countReviewCharacters() {
 }
 
 // Form validation
-function validateForm() {
+export function validateForm() {
     console.log("Validate form");
     const reviewTextarea = document.getElementById('reviewText');
     const reviewTitleTextarea = document.getElementById('reviewTitle');
@@ -64,49 +64,11 @@ function validateForm() {
 
 }
 
-// Tag selection logic
-function setTagValue(value) {
-    document.getElementById('whoWith').value = value;
-    let tags = document.querySelectorAll('.tag');
-    tags.forEach(tag => tag.classList.remove('active'));
-    event.target.classList.add('active');
-}
 
-document.getElementById('chatPostForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission behaviour
-    
-    // Create headers for authentication
-    const myHeaders = new Headers();
-    myHeaders.append("student_number", "s4845110");
-    myHeaders.append("uqcloud_zone_id", "592c492f");
 
-    // Get the form element
-    const form = document.getElementById('chatPostForm');
 
-    // Create FormData from the form
-    const formData = new FormData(form);
 
-    // Prepare the fetch request options
-    const requestOptions = {
-        method: "POST",
-        headers: myHeaders,
-        body: formData, // Pass the serialized form data
-        redirect: "follow"
-    };
-
-    // Send the POST request
-    fetch("https://damp-castle-86239-1b70ee448fbd.herokuapp.com/decoapi/genericchat/", requestOptions)
-        .then(response => response.json())
-        .then(result => {
-            console.log(result); 
-            getAllReviews();    
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-});
-
-function getAllReviews() {
+export function getAllReviews() {
    
     // Set up headers for GET request
     const myHeaders = new Headers();

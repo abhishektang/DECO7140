@@ -11,7 +11,7 @@
 
 
   <title>Reviews</title>
-  <script src="js/reviewscript.js" defer></script>
+  <script type="module" src="js/components.js" defer></script>
   </head>
   <body>
     <div class="reviews">
@@ -126,7 +126,6 @@
                             <button type="button" class="tag" onclick="setTagValue('Friends')">Friends</button>
                             <button type="button" class="tag" onclick="setTagValue('Solo')">Solo</button>
                         </div>
-                        <input type="hidden" id="whoWith" name="whoWith" value="">
                         <h2>Title Your Review</h2>
                         <textarea name="chat_post_title" id="reviewTitle"placeholder="The views were amazing. We took so many photos!..." maxlength="120" oninput="countTitleCharacters()" rows="3"></textarea>
                         <p id="titleCount">0/120 max characters</p>
