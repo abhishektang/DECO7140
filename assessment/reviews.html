@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="extras/reviewstyle.css">
+
 
 
   <title>Reviews</title>
@@ -86,24 +86,21 @@
                 </div>
             </div>
         </header>
-        <div class="div-2">
-          <div class="div-2">
-            <div class="container-14">
-                <div class="container-16">
-                  <div class="container-8">
+        <div class="div-2_sub3">
+          <div class="div-2_sub3">
+            <div class="container-14_sub3">
+                <div class="container-16_sub3">
+                  <div class="container-8_sub3">
                     <h1>Write a review, make someone's trip</h1>
                   </div>
-                  <div class="stories-like-yours-wrapper">
-                    <p class="stories-like-yours">
+                  <div class="stories-like-yours-wrapper_sub3">
+                    <p class="stories-like-yours_sub3">
                       Stories like yours are what help travellers have better trips.<br />
                       Share your experience and help out a fellow traveller!
                     </p>
                   </div>
-                  <div class="container-17">
-                    
-                  </div>
                 </div>
-                <div class="container-23">
+                <div class="container-23_sub3">
                   <div class="review-form">
                     <form id="chatPostForm" method="POST" action="/submitReview" onsubmit="return validateForm()">
                       <label for="person_name">Maker:</label>
@@ -115,7 +112,6 @@
                                 <option value="January">January</option>
                                 <option value="February">February</option>
                                 <option value="March">March</option>
-                                <!-- Add more options as needed -->
                             </select>
                         </div>
                         <h2>Who did you go with?</h2>
@@ -140,21 +136,20 @@
               </div>
           </div>
 
-            <div class="container-23">
-              <div class="container-25">
-                <div class="container-26">
-                  <div class="container-2">
-                    <div class="text-wrapper-4">Your reviews</div>
+            <div class="container-23_sub3">
+              <div class="container-25_sub3">
+                <div class="container-26_sub3">
+                  <div class="container-2_sub3">
+                    <div class="text-wrapper-4_sub3">Your reviews</div>
                   </div>
-                  <div class="container-2">
+                  <div class="container-2_sub3">
                     <p id="review-message" class="text-wrapper-5">You have no reviews yet. After you write some reviews, they will appear here.</p>
                   </div>
                 <!-- Review results section -->
-                <div id="review-results" class="hidden"></div>
+                <div id="review-results" class="hidden" aria-labelledby="All Review Section" aria-live="polite"></div>
                 </div>
               </div>
             </div>
-            
         </div>
         <footer class="footer">
           <div class="footer-links">

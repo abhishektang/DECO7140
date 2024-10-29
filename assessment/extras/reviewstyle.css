@@ -15,7 +15,7 @@ body {
     position: relative;
     width: 40px;
   }
-  .reviews .container-2 {
+  .reviews .container-2_sub3 {
     align-self: stretch;
     display: flex;
     flex: 0 0 auto;
@@ -242,7 +242,7 @@ body {
     position: relative;
   }
   
-  .reviews .container-8 {
+  .reviews .container-8_sub3 {
     align-items: flex-start;
     display: inline-flex;
     flex: 0 0 auto;
@@ -311,7 +311,7 @@ body {
     flex-grow: 1 !important;
   }
   
-  .reviews .div-2 {
+  .reviews .div-2_sub3 {
     align-items: flex-start;
     align-self: stretch;
     background-color: #e3d8bf;
@@ -322,7 +322,7 @@ body {
     width: 100%;
   }
   
-  .reviews .container-14 {
+  .reviews .container-14_sub3 {
     align-items: center;
     align-self: stretch;
     display: flex;
@@ -345,7 +345,7 @@ body {
     width: 1184px;
   }
   
-  .reviews .container-16 {
+  .reviews .container-16_sub3 {
     align-items: center;
     display: flex;
     flex: 0 0 auto;
@@ -369,7 +369,7 @@ body {
     width: fit-content;
   }
   
-  .reviews .stories-like-yours-wrapper {
+  .reviews .stories-like-yours-wrapper_sub3 {
     align-items: center;
     display: flex;
     flex: 0 0 auto;
@@ -378,9 +378,10 @@ body {
     padding: 0px 10.47px 0px 10.45px;
     position: relative;
     width: 670px;
+    margin-left: 500px;
   }
   
-  .reviews .stories-like-yours {
+  .reviews .stories-like-yours_sub3 {
     color: var(--wwwtripadvisorcomaublack);
     font-family: var(--www-tripadvisor-com-au-inter-regular-22-88-font-family);
     font-size: var(--www-tripadvisor-com-au-inter-regular-22-88-font-size);
@@ -505,7 +506,7 @@ body {
     top: 14px !important;
   }
   
-  .reviews .container-23 {
+  .reviews .container-23_sub3 {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -558,7 +559,7 @@ body {
     width: 100%;
   }
   
-  .reviews .container-25 {
+  .reviews .container-25_sub3 {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -568,7 +569,7 @@ body {
     width: 100%;
   }
   
-  .reviews .container-26 {
+  .reviews .container-26_sub3 {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -579,7 +580,7 @@ body {
     position: relative;
   }
   
-  .reviews .text-wrapper-4 {
+  .reviews .text-wrapper-4_sub3 {
     align-self: stretch;
     color: var(--wwwtripadvisorcomaublack);
     font-family: var(--www-tripadvisor-com-au-inter-bold-20-81-font-family);
