@@ -1,14 +1,15 @@
+import {initializeButtonAlerts} from './components.js';
+
 alert("Javascript works");
 console.log("This is homepage");
 
-document.addEventListener('DOMContentLoaded', function() {
-    
-  const discoverButton = document.querySelector('.button:nth-child(1)'); 
-  discoverButton.addEventListener('click', function() {
-    alert('Discover button clicked!');
-  });
-  
-    
-  
-  });
-  
+initializeButtonAlerts();
+window.initializeButtonAlerts = initializeButtonAlerts;
+
+export function toggleMenu() {
+  const mobileMenu = document.querySelector(".mobile-menu");
+  mobileMenu.classList.toggle("show");
+}
+
+window.toggleMenu = toggleMenu;
+

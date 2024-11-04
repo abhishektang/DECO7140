@@ -11,7 +11,7 @@
 
 
   <title>Reviews</title>
-  <script type="module" src="js/components.js" defer></script>
+  <script type="module" src="js/reviewscript.js" defer></script>
   </head>
   <body>
     <div class="reviews">
@@ -103,30 +103,13 @@
                 <div class="container-23_sub3">
                   <div class="review-form">
                     <form id="chatPostForm" method="POST" action="/submitReview" onsubmit="return validateForm()">
-                      <label for="person_name">Maker:</label>
+                      <label for="person_name">Your Name:</label>
                       <input type="text" id="person_name" name="person_name" required>
-                        <h2>When did you go?</h2>
-                        <div class="select-wrapper">
-                            <select name="visitTime">
-                                <option value="">Select one</option>
-                                <option value="January">January</option>
-                                <option value="February">February</option>
-                                <option value="March">March</option>
-                            </select>
-                        </div>
-                        <h2>Who did you go with?</h2>
-                        <div class="tag-wrapper">
-                            <button type="button" class="tag" onclick="setTagValue('Business')">Business</button>
-                            <button type="button" class="tag" onclick="setTagValue('Couples')">Couples</button>
-                            <button type="button" class="tag" onclick="setTagValue('Family')">Family</button>
-                            <button type="button" class="tag" onclick="setTagValue('Friends')">Friends</button>
-                            <button type="button" class="tag" onclick="setTagValue('Solo')">Solo</button>
-                        </div>
                         <h2>Title Your Review</h2>
-                        <textarea name="chat_post_title" id="reviewTitle"placeholder="The views were amazing. We took so many photos!..." maxlength="120" oninput="countTitleCharacters()" rows="3"></textarea>
+                        <textarea name="chat_post_title" id="reviewTitle"placeholder="Title of your review" maxlength="120" oninput="countTitleCharacters()" rows="3"></textarea>
                         <p id="titleCount">0/120 max characters</p>
                         <h2>Write your review</h2>
-                        <textarea name="chat_post_content" id="reviewText" placeholder="The views were amazing. We took so many photos!..." minlength="100" oninput="countReviewCharacters()" rows="1"></textarea>
+                        <textarea name="chat_post_content" id="reviewText" placeholder="Please Write Your Review Here" minlength="100" oninput="countReviewCharacters()" rows="1"></textarea>
                         <p id="reviewCount">0/100 min characters</p>
                         <input type="hidden" name="website_code" value="592c492" required>
                         <button id="fetchReviewsBtn" type="submit">Submit Review</button>
@@ -135,7 +118,6 @@
                 </div>
               </div>
           </div>
-
             <div class="container-23_sub3">
               <div class="container-25_sub3">
                 <div class="container-26_sub3">

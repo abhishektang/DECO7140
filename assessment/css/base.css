@@ -74,6 +74,217 @@ body {
 
 
   
+
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header-margin, .header {
+    padding: 10px;
+}
+
+.nav-wrapper {
+  justify-content: space-between; /* Space between for alignment */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.text-wrapper {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Navigation Buttons */
+.button-wrapper {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.button_sub, .button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Currency and Sign-in Buttons */
+.container-6 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.button-2 {
+    width: 100%;
+}
+
+/* Main Content */
+.main .heading h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.tablist-wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.tablist-wrapper > * {
+  flex: 0 0 auto; /* Prevents items from shrinking or wrapping */
+}
+
+.tab-margin {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-wrapper-6, .text-wrapper-7 {
+    font-size: 0.9rem;
+}
+
+/* Search Section */
+.search {
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-3 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Travellers' Choice Section */
+.container-18 {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.travellers-choice {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-margin {
+    width: 48%;
+    margin: 1%;
+    text-align: center;
+}
+
+.background-2 .text-wrapper-12 {
+    font-size: 1rem;
+}
+
+.container-11 {
+  max-width: 90%; 
+}
+
+.background-border {
+  display: none; 
+}
+
+.background-border-responsive {
+  display: flex; 
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links h5 {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.container-wrapper {
+  order: 1;  /* Hamburger menu to the left */
+  display: flex;
+  align-items: center;
+}
+
+.container-wrapper .container-3 {
+  display: none; /* Hide buttons on small screens */
+}
+
+.container-wrapper .hamburger-menu {
+  display: flex; /* Show hamburger icon */
+  order: 1
+}
+
+.overlap-group-wrapper {
+  order: 2;
+  flex: 1;
+  
+}
+
+.container-6 {
+  display: flex;
+  order: 3;
+}
+
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  background: #e3d8bf;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.mobile-menu a {
+  color: #333;
+  padding: 8px 0;
+  text-decoration: none;
+}
+
+.mobile-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+.mobile-menu.show {
+  display: flex; /* Show menu when toggled */
+}
+}
   
   
   

@@ -35,7 +35,7 @@
   max-width: 1200px;
   padding: 0px 20px;
   position: relative;
-  width: 986.67px;
+  width: 100%;
 }
 
 .nav {
@@ -49,16 +49,20 @@
 }
 
 .overlap-group-wrapper {
+  display: flex;
   height: 27.77px;
   overflow: hidden;
   position: relative;
   width: 130.56px;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
   height: 40px;
   position: relative;
   width: 40px;
+  margin-right: 92px;
 }
 
 .text-wrapper {
@@ -67,13 +71,12 @@
   font-size: 13.9px;
   font-weight: 700;
   height: 22px;
-  left: 5px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 7px;
-  width: 131px;
+  width: 40px;
 }
 
 .container-wrapper {
@@ -81,7 +84,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-left: 90px;
 }
 
 .container-3 {
@@ -134,7 +136,7 @@
   gap: 6.67px;
   justify-content: flex-end;
   position: relative;
-  width: 226.67px;
+
   
 }
 
@@ -199,11 +201,9 @@
   align-items: flex-start;
   display: flex;
   justify-content: center;
-  left: 0;
-  padding: 0px 242.2px;
   position: absolute;
   top: 81px;
-  margin-left: 170px;
+  width: 100%;
 }
 
 .tab-margin {
@@ -246,8 +246,7 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  left: 107px;
-  max-width: 1200px;
+  width: 100%;
   padding: 0px 20px;
   position: absolute;
   top: 133px;
@@ -264,7 +263,6 @@
   flex: 0 0 auto;
   flex-direction: column;
   overflow: hidden;
-  overflow-y: scroll;
   padding: 1.67px 6.67px 1.67px 15px;
   position: relative;
   width: 666.67px;
@@ -373,7 +371,8 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  overflow: scroll;
+  overflow: hidden;
+  overflow-x: scroll;
   padding: 3.33px;
   position: relative;
   width: 100%;
@@ -546,7 +545,6 @@ padding: 0px 10px;
   margin-left: -17.55px;
   margin-right: -17.55px;
   overflow: hidden;
-  overflow-y: scroll;
   padding: 1.67px 15px;
   position: relative;
   width: 384.73px;
@@ -1835,4 +1833,30 @@ hr {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hamburger-menu span {
+  background-color: #333;
+  display: block;
+  height: 4px;
+  width: 24px;
+  border-radius: 2px;
+}
+
+.background-border-responsive {
+  display: none; 
+  width: 85%; 
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.mobile-menu{
+  display: none;
 }

@@ -1,5 +1,11 @@
+import {initializeButtonAlerts_sub} from './components.js';
+
 alert("Javascript works");
-export let review = "This is reviewpage";
+console.log("This is reviewpage");
+
+
+
+
 
 export function countTitleCharacters() {
     console.log("Inside the Title Character funcion");
@@ -13,6 +19,7 @@ export function countTitleCharacters() {
         alert("You have exceeded the maximum character limit for the title (120 characters).");
     }
 }
+window.countTitleCharacters = countTitleCharacters;
 
 // Character count for review
 export function countReviewCharacters() {
@@ -22,6 +29,7 @@ export function countReviewCharacters() {
     const charCount = reviewTextarea.value.length;
     reviewCount.textContent = `${charCount}/100 characters (min)`;
 }
+window.countReviewCharacters = countReviewCharacters;
 
 // Form validation
 export function validateForm() {
@@ -64,11 +72,46 @@ export function validateForm() {
 
 }
 
+window.validateForm = validateForm;
 
 
 
+document.getElementById('chatPostForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission behaviour
+    
+    // Create headers for authentication
+    const myHeaders = new Headers();
+    myHeaders.append("student_number", "s4845110");
+    myHeaders.append("uqcloud_zone_id", "592c492f");
 
-export function getAllReviews() {
+    // Get the form element
+    const form = document.getElementById('chatPostForm');
+
+    // Create FormData from the form
+    const formData = new FormData(form);
+
+    // Prepare the fetch request options
+    const requestOptions = {
+        method: "POST",
+        headers: myHeaders,
+        body: formData, // Pass the serialized form data
+        redirect: "follow"
+    };
+
+    // Send the POST request
+    fetch("https://damp-castle-86239-1b70ee448fbd.herokuapp.com/decoapi/genericchat/", requestOptions)
+        .then(response => response.json())
+        .then(result => {
+            console.log(result); 
+            getAllReviews();    
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+});
+
+
+function getAllReviews() {
    
     // Set up headers for GET request
     const myHeaders = new Headers();
@@ -122,5 +165,8 @@ export function getAllReviews() {
             document.getElementById('review-message').textContent = "Error fetching reviews.";
         });
 };
+
+initializeButtonAlerts_sub();
+window.initializeButtonAlerts_sub = initializeButtonAlerts_sub;
 
 window.onload = getAllReviews;

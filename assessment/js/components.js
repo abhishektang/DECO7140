@@ -1,54 +1,66 @@
 //Import functionality from other modules
-import {countTitleCharacters, countReviewCharacters, validateForm, getAllReviews, review} from './reviewscript.js';
 
 //Define variables
 
 //Attach event listeners to elements
 
-document.getElementById('chatPostForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission behaviour
-    
-    // Create headers for authentication
-    const myHeaders = new Headers();
-    myHeaders.append("student_number", "s4845110");
-    myHeaders.append("uqcloud_zone_id", "592c492f");
+export function initializeButtonAlerts() {
+    // Function to show an alert message
+    document.addEventListener("DOMContentLoaded", () => {
+      // Function to show an alert message
+      function showAlert(event) {
+          const buttonText = event.target.textContent.trim(); // Get the button text
+          alert(`${buttonText} button clicked!`);
+      }
+  
+      // Select the specific buttons by ID or a more direct class if possible
+      const discoverButton = document.querySelector('.button-wrapper a[href="discover.html"] button');
+      const tripsButton = document.querySelector('.button-wrapper a[href="plan_trip.html"] button');
+      const reviewButton = document.querySelector('.button-wrapper a[href="reviews.html"] button');
+      const destinationsButton = document.querySelector('.button-wrapper a[href="destinations.html"] button');
+  
+      // Add event listeners
+      if (discoverButton) discoverButton.addEventListener('click', showAlert);
+      if (tripsButton) tripsButton.addEventListener('click', showAlert);
+      if (reviewButton) reviewButton.addEventListener('click', showAlert);
+      if (destinationsButton) destinationsButton.addEventListener('click', showAlert);
+  });
+  }
 
-    // Get the form element
-    const form = document.getElementById('chatPostForm');
+  export function initializeButtonAlerts_sub() {
+    document.addEventListener("DOMContentLoaded", () => {
+        function showAlert(event) {
+            const buttonText = event.target.closest('.button_sub').textContent.trim();
+            alert(`${buttonText} button clicked!`);
+        }
 
-    // Create FormData from the form
-    const formData = new FormData(form);
+        const discoverButton = document.querySelector('.button-wrapper_sub a[href="discover.html"] .button_sub');
+        const tripsButton = document.querySelector('.button-wrapper_sub a[href="plan_trip.html"] .button_sub');
+        const reviewButton = document.querySelector('.button-wrapper_sub a[href="reviews.html"] .button_sub');
+        const destinationsButton = document.querySelector('.button-wrapper_sub a[href="destinations.html"] .button_sub');
+        const homeButton = document.querySelector('.button-wrapper_sub a[href="index.html"] .button_sub');
 
-    // Prepare the fetch request options
-    const requestOptions = {
-        method: "POST",
-        headers: myHeaders,
-        body: formData, // Pass the serialized form data
-        redirect: "follow"
-    };
+        if (discoverButton) discoverButton.addEventListener('click', showAlert);
+        if (tripsButton) tripsButton.addEventListener('click', showAlert);
+        if (reviewButton) reviewButton.addEventListener('click', showAlert);
+        if (destinationsButton) destinationsButton.addEventListener('click', showAlert);
+        if (homeButton) homeButton.addEventListener('click', showAlert);
+    });
+  }
 
-    // Send the POST request
-    fetch("https://damp-castle-86239-1b70ee448fbd.herokuapp.com/decoapi/genericchat/", requestOptions)
-        .then(response => response.json())
-        .then(result => {
-            console.log(result); 
-            getAllReviews();    
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-});
+
+
+
 
 //Startup code that runs at or during page load
 
-console.log(review);
-window.onload = getAllReviews;
 
 //Functions to define specific behaviours
-countTitleCharacters();
 
-countReviewCharacters();
 
-validateForm();
+
 
 //Functions for general use
+
+
+  
