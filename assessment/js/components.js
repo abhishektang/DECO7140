@@ -4,6 +4,17 @@
 
 //Attach event listeners to elements
 
+
+
+
+
+
+//Startup code that runs at or during page load
+
+
+//Functions to define specific behaviours
+
+
 export function initializeButtonAlerts() {
     // Function to show an alert message
     document.addEventListener("DOMContentLoaded", () => {
@@ -47,17 +58,6 @@ export function initializeButtonAlerts() {
         if (homeButton) homeButton.addEventListener('click', showAlert);
     });
   }
-
-
-
-
-
-//Startup code that runs at or during page load
-
-
-//Functions to define specific behaviours
-
-
 
 
 //Functions for general use

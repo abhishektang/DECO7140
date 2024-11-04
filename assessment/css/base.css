@@ -284,6 +284,115 @@ body {
 .mobile-menu.show {
   display: flex; /* Show menu when toggled */
 }
+
+.main {
+  padding: 10px;
+}
+
+.overlap-2_sub2, .overlap-3_sub2 {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container-19_sub2 img, .container-45_sub2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Text content adjustments */
+.des_heading {
+  font-size: 24px;
+}
+
+.text-wrapper-11_sub2 {
+  font-size: 18px;
+}
+
+.text-wrapper-12_sub2, .the-best-of-the-best_sub2 {
+  font-size: 14px;
+}
+
+/* Button list adjustments */
+.button-listbox-wrapper_sub2 {
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-6_sub2 {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .nav-wrapper_sub .container-wrapper_sub {
+  display: none;
+}
+
+/* Order elements and align them in a row */
+.nav_sub {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Order the hamburger menu to the leftmost position */
+header .container-3_sub {
+  order: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Center the logo */
+header .link-wrapper_sub {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+/* Position the currency/sign-in container to the right */
+header .container-6_sub {
+  order: 3;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .container-5_sub{
+  display: none;
+}
+
+header .hamburger-menu_sub {
+  display: flex;
+  order: 1;
+}
+
+/* Mobile menu toggle visibility */
+header .mobile-menu_sub {
+  display: none; /* Initially hidden */
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .mobile-menu_sub a {
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header .hamburger-menu.active + .mobile-menu {
+  display: flex; /* Show menu when active */
+}
+
 }
   
   

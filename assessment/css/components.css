@@ -502,7 +502,7 @@
   max-width: 1200px;
   padding: 0px 20px;
   position: relative;
-  width: 986.67px;
+  width: 100%;
 }
 
 .nav_sub {
@@ -520,7 +520,7 @@
   display: flex;
   height: 50px;
   position: relative;
-  width: 238.33px;
+  width: 100%;
   padding: 0px 10px;
 }
 
@@ -1800,7 +1800,6 @@ hr {
   flex: 0 0 auto;
   gap: 96px;
   position: relative;
-  width: 100%;
 }
 
 .container-26_sub3 {
@@ -1859,4 +1858,23 @@ hr {
 
 .mobile-menu{
   display: none;
+}
+
+.mobile-menu_sub{
+  display: none;
+}
+
+.hamburger-menu_sub {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hamburger-menu_sub span {
+  background-color: #333;
+  display: block;
+  height: 4px;
+  width: 24px;
+  border-radius: 2px;
 }
